@@ -10,6 +10,7 @@ body{
 
 #header-logo{
     background-color: white;
+    padding: 2%;
 
 }
 
@@ -19,7 +20,7 @@ body{
 }
 
 #logo-text{
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .button-section{
@@ -86,4 +87,89 @@ body{
     vertical-align: middle;
     color: red;
 }
+
+.editorial{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    text-align: center;
+    vertical-align: middle;
+    color: white
+    ;
+}
+
+.Q1{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid purple;
+    background-color: purple;
+    text-align: center;
+    vertical-align: middle;
+    color: white
+    ;
+}
+
+.recruiting{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+    text-align: center;
+    vertical-align: middle;
+    color: white
+    ;
+}
+
+.mobile{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    background-color: orange;
+    text-align: center;
+    vertical-align: middle;
+    color: white
+    ;
+}
+
+.website{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid lightpink;
+    background-color: lightpink;
+    text-align: center;
+    vertical-align: middle;
+    color: white
+    ;
+}
+
+.sales{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+    background-color: greenyellow;
+    text-align: center;
+    vertical-align: middle;
+    color: white
+    ;
+}
+
 
