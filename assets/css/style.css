@@ -49,9 +49,10 @@ body{
 .list-section{
     width: 70%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 2px;
     background-color: white;
     padding: 1%;
+    margin-bottom: 10px;
 }
 
 .list-title{
