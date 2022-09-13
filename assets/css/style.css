@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+#header-logo{
+    background-color: white;
+
+}
+
+.logo{
+    vertical-align: middle;
+    height: 20%;
+}
+
+#logo-text{
+    font-size: 3rem;
+}
+
+.button-section{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+
+
+}
+
+#blue-button{
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5%;
+    
+}
+
+#white-button{
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    padding: 0.5%;
+}
