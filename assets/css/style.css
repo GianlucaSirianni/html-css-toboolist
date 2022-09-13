@@ -52,3 +52,38 @@ body{
     background-color: white;
     padding: 1%;
 }
+
+.list-title{
+    font-weight: bolder;
+}
+
+.list-title::before{
+    content: "\25BC" ;
+}
+
+.green-check{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 2px solid lightgreen;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    color: lightgreen;
+}
+
+.red-check{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    color: red;
+}
+
