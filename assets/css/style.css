@@ -26,8 +26,8 @@ body{
     width: 70%;
     margin: auto;
     margin-top: 10%;
-
-
+    background-color: white;
+    padding: 1%;
 }
 
 #blue-button{
@@ -35,7 +35,7 @@ body{
     color: white;
     border-radius: 5px;
     padding: 0.5%;
-    
+    margin-left: 5%;
 }
 
 #white-button{
@@ -43,4 +43,12 @@ body{
     color: gray;
     border-radius: 5px;
     padding: 0.5%;
+}
+
+.list-section{
+    width: 70%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    padding: 1%;
 }
