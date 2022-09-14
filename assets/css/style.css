@@ -1,16 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Roboto', sans-serif
+}
+
 body{
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 #header-logo{
     background-color: white;
-    padding: 2%;
+    padding: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -20,30 +27,33 @@ body{
 }
 
 #logo-text{
+    vertical-align: middle;
     font-size: 3.5rem;
 }
 
 .button-section{
     width: 70%;
     margin: auto;
-    margin-top: 10%;
     background-color: white;
-    padding: 1%;
+    padding: 20px 30px 50px 30px;
+    border-radius: 10px;
 }
 
 #blue-button{
     background-color: aqua;
     color: white;
-    border-radius: 5px;
-    padding: 0.5%;
+    border-radius: 10px;
+    border: 0px;
+    padding: 8px 4px;
     margin-left: 5%;
 }
 
 #white-button{
-    background-color: white;
+    background-color: lightgray;
     color: gray;
-    border-radius: 5px;
-    padding: 0.5%;
+    border-radius: 10px;
+    border: 0px;
+    padding: 8px 4px;
 }
 
 .list-section{
@@ -53,6 +63,7 @@ body{
     background-color: white;
     padding: 1%;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .list-title{
